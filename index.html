@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>lab4 Assignment</title>
+        <link rel="Stylesheet" href="ass4.css">
+    </head>
+    <body style="background-color: rgb(237, 247, 110)">
+        <script>
+            function AlertMessagename()
+            {
+                alert("Sagun Tewari");
+            }
+            function AlertMessageReg()
+            {
+                alert("Registration number: 202000528");
+            }
+
+            function largePic(x)
+            {
+                x.style.width = "640px";
+                x.style.height = "360px";
+            }
+            function normPic(x)
+            {
+                x.style.width = "320px";
+                x.style.height = "180px";
+            }
+
+            function largeFont(y)
+            {
+                y.style.fontSize = "150%";
+            }
+            function normalFont(y)
+            {
+                y.style.fontSize = "100%";
+            }
+        </script>
+        <div class="C">
+            <button onclick="AlertMessagename()">Name</button>
+            <button onclick="AlertMessageReg()">Registration number</button>
+        </div>
+        <br/><br/>
+        <div class="A">
+            <img onmouseover="largePic(this)" onmouseout="normPic(this)" src="file:///C:/Users/CSE/Documents/Scripting%20lab/Dhoni.jpg" width="320px" height="180px">
+            <h2 onmouseover="largeFont(this)" onmouseout="normalFont(this)">Mahendra Singh Dhoni</h2>
+        </div>
+        <br/><br/>
+        <div class="D">
+            Email: sagun_202000528@smit.smu.edu.in
+        </div>
+
+</html>
